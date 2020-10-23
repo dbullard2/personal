@@ -6,6 +6,11 @@ $navbar-background-color: #272932;
 $navbar-item-color: #fff;
 $navbar-item-hover-color: #a7fffd;
 $navbar-item-hover-background-color: transparent;
+$input-background-color: #3e4150;
+$input-border-color: #3e4150;
+$input-color: #fff;
+$button-background-color: #fff0d1;
+$button-border-color: #fff0d1;
 
 body {
   background-color: #272932;
@@ -66,8 +71,20 @@ body {
   margin-right: 1vw;
 }
 
+.right-2 {
+  margin-right: 2vw;
+}
+
 .right-3 {
   margin-right: 3vw;
+}
+
+.bottom-3 {
+  margin-bottom: 3vw;
+}
+
+.top-1 {
+  margin-top: 1vw;
 }
 
 .about {
@@ -124,6 +141,36 @@ body {
 .bio {
   color: #a7fffd;
   font-weight: bold;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work {
+  width: 28vw;
+}
+
+button {
+  font-weight: bold;
+}
+
+.plug {
+  background-color: #272932;
+  color: #fff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px dashed #fff;
+}
+
+.plug a:hover {
+  text-decoration: underline;
+  text-decoration-color: #93ff93;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.5rem;
 }
 
 @import '../node_modules/bulma/bulma.sass';
